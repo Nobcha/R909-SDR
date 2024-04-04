@@ -1,5 +1,5 @@
-# R909-SDR
-R909-SDR is a radio for the airband and the FM broadcasting. 
+# R909-DSP
+R909-DSP is a radio for the airband and the FM broadcasting. 
 It is configured by Si5351a, Si4732, and TA2003 mainly.
 TA2003 and Si5351a are sharing the first mixer and the local oscillator.
 Si4732 is acting as a mother 21.4MHz receiver for the airband and the FM radio itself.
@@ -13,7 +13,7 @@ In every function mode you can change the parameter by rotating and store the pa
 To escape out from every function mode to push rortary encoder switch single.
 Rotating, one pushing, and two pushing is the identical operation for this sketch.
 
-There are two PCBs as Panel and RF. They are connecting by pinhedder connector. 
+There are two kinds of PCBs as Panel and RF to compose the radio. They are connecting by pinhedder connector. 
 The ATmega328P with the Arduino boot loader, the switches, and the display are locating on the Panel PCB.
 
  nobcha
