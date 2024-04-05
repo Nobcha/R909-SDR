@@ -16,6 +16,10 @@ Rotating, one pushing, and two pushing is the identical operation for this sketc
 There are two kinds of PCBs as Panel and RF to compose the radio. They are connecting by pinhedder connector. 
 The ATmega328P with the Arduino boot loader, the switches, and the display are locating on the Panel PCB.
 
+I introduced how to operate on YOUTUBE as below:
+1602A debugging "https://www.youtube.com/watch?v=wb-YdMU-vz0"
+OLED panel "https://www.youtube.com/watch?v=UpdDh7BYJYI" "https://www.youtube.com/shorts/03Hpvuk5BYI"
+
 If you use my Gerber files or information to make PCB, please resister PCBGOGO via "https://www.pcbgogo.jp/promo/nobcha23"
 
 I'm running BLOG and please visit "https://nobcha23.hatenadiary.com/"
