@@ -26,4 +26,10 @@ If you use my Gerber files or information to make PCB, please resister PCBGOGO v
 
 I'm running BLOG and please visit "https://nobcha23.hatenadiary.com/"
 
+I'm much thanking Mr.Jason,9H5BM to give me the idea of this project, PU2CLR and JF3HZB to show me the sketch examples, Cesar Sound to introduce me the display layout example, and many people to gibe me many information.
+Jason kits, 9H5BM　https://www.facebook.com/profile.php?id=100012257914763
+Ricardo Lima Caratti, pu2clr　 https://github.com/pu2clr
+上保 徹志 (Tetsuji Uebo), JF3HZB　 https://tj-lab.org/2017/03/13/si5351/
+CesarSound https://www.hackster.io/CesarSound/10khz-to-225mhz-vfo-rf-generator-with-si5351-version-2-bfa619
+
  nobcha
