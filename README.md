@@ -50,6 +50,9 @@ FM放送受信はSi4732で行います。Si4732の制御はPU2CLRのライブラ
 基板はＰＣＢＧＯＧＯの協力を得ました。提供するガーバーファイルはそのためＰＣＢＧＯＧＯ向けになっています。
 次のエントリーから登録してお使いください。"https://www.pcbgogo.jp/promo/nobcha23"
 
+関連データ類をアップロードしましたが、名前と用と説明のリストも用意しました。
+R909_20240408JA.docx
+
 また、このプロジェクトに際し、色々な方の情報を参考にしました。感謝します。
      Jason kits, 9H5BM　https://www.facebook.com/profile.php?id=100012257914763
      Ricardo Lima Caratti, pu2clr　 https://github.com/pu2clr
