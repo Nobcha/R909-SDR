@@ -33,6 +33,8 @@ I'm much thanking Mr.Jason,9H5BM to give me the idea of this project, PU2CLR and
      上保 徹志 (Tetsuji Uebo), JF3HZB　 https://tj-lab.org/2017/03/13/si5351/
      CesarSound https://www.hackster.io/CesarSound/10khz-to-225mhz-vfo-rf-generator-with-si5351-version-2-bfa619
 
+I found the cause of low sensitivity because of error pin assignment for 2SC3355 as ECB. BEC is correct so please change insertion of pins.
+
  nobcha　　　E-MAIL:”nobcha48 at gmail.com"
 
 D909-DSPというのはSi4732を使った、航空無線受信とFM放送受信ができる自作ラジオです。
@@ -45,7 +47,9 @@ FM放送受信はSi4732で行います。Si4732の制御はPU2CLRのライブラ
 日々の実験進捗などは次のブログにありますので、ご参考に願います。"https://nobcha23.hatenadiary.com/"
 
 基板構成はRF部とPanel部で88ｘ38ｘ100のアルミケースに入れるようにしました。
-ＹＯＵＴＵＢＥを見ていただけるとわかりますが、動作安定で音声もクリア、難点はいまいちの感度ぐらいです。
+ＹＯＵＴＵＢＥを見ていただけるとわかりますが、動作安定で音声もクリア、(難点はいまいちの感度ぐらい)です。
+--感度が悪い原因は2SC3355のPCBパターン間違い（ECB)でした。正しくはBECなので、TRを反対向きにして、EとCを交差させ実装願います。
+
 
 基板はＰＣＢＧＯＧＯの協力を得ました。提供するガーバーファイルはそのためＰＣＢＧＯＧＯ向けになっています。
 次のエントリーから登録してお使いください。"https://www.pcbgogo.jp/promo/nobcha23"
