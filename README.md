@@ -34,6 +34,8 @@ I'm much thanking Mr.Jason,9H5BM for giving me the idea of this project, PU2CLR 
      CesarSound https://www.hackster.io/CesarSound/10khz-to-225mhz-vfo-rf-generator-with-si5351-version-2-bfa619
 
 After then I found the cause of low sensitivity because of error pin assignment for 2SC3355 as ECB. BEC is correct so please change insertion of pins.
+And also Xule-san sent me the comnents. I reviced the errata list. Please refer the coils_R909-SDR.pdf for the front end assembling.
+I'm still debugging and revicing the sketch.
 
  nobcha　　　E-MAIL:”nobcha48 at gmail.com"
 
@@ -62,5 +64,9 @@ R909_20240408JA.docx
      Ricardo Lima Caratti, pu2clr　 https://github.com/pu2clr
      上保 徹志 (Tetsuji Uebo), JF3HZB　 https://tj-lab.org/2017/03/13/si5351/
      CesarSound https://www.hackster.io/CesarSound/10khz-to-225mhz-vfo-rf-generator-with-si5351-version-2-bfa619
+
+IF段の2SC3355部がおかしいことに気が付きました。TRのピン配置が間違っていました。この問題が解消し、感度は-100ｄBmより良くなり、実用的になってきました。
+またシュールさんからご指摘をいただき、部品名など情報追加で、errata240624.jpgをアップデータとしました。
+まだ、いくつか心配点があり、デバッグ進行中です。
 
  nobcha  E-MAIL:”nobcha48 at gmail.com"
