@@ -39,6 +39,8 @@ I'm still debugging and revicing the sketch.
 
  nobcha　　　E-MAIL:”nobcha48 at gmail.com"
 
+![R909-DSP1_pcb](https://github.com/user-attachments/assets/a07b804d-5c57-4b06-bd32-474270569fa5)
+
 D909-DSPというのはSi4732を使った、航空無線受信とFM放送受信ができる自作ラジオです。
 Si4732を21.4MHｚ親受信部に使い、ヘテロダインミキサーはTA2003にSi4751a局発モジュールを使います。
 FM放送受信はSi4732で行います。Si4732の制御はPU2CLRのライブラリを使い、Arduinoで行います。
@@ -54,7 +56,7 @@ FM放送受信はSi4732で行います。Si4732の制御はPU2CLRのライブラ
 
 
 基板はＰＣＢＧＯＧＯの協力を得ました。提供するガーバーファイルはそのためＰＣＢＧＯＧＯ向けになっています。
-次のエントリーから登録してお使いください。"https://www.pcbgogo.jp/promo/nobcha23"
+次のエントリーから登録してお使いください。"https://www.pcbgogo.jp/promo/nobcha"
 
 関連データ類をアップロードしましたが、名前と用途の説明リストも用意しました。
 R909_20240408JA.docx
