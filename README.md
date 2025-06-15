@@ -39,6 +39,12 @@ I'm still debugging and revicing the sketch.
 
  nobcha　　　E-MAIL:”nobcha48 at gmail.com"
 
+ --The remained issues ---
+ 1. There is some noise which may be caused by OLED pumping and RSSI i2c monitoring.
+    100 ohm and 220uF decoupling circuit on DC supply for OLED effect well some.
+    You shall go down i2c speed.
+    I will try those later sooner.
+
 ![R909-DSP1_pcb](https://github.com/user-attachments/assets/a07b804d-5c57-4b06-bd32-474270569fa5)
 
 D909-DSPというのはSi4732を使った、航空無線受信とFM放送受信ができる自作ラジオです。
@@ -70,5 +76,9 @@ R909_20240408JA.docx
 IF段の2SC3355部がおかしいことに気が付きました。TRのピン配置が間違っていました。この問題が解消し、感度は-100ｄBmより良くなり、実用的になってきました。
 またシュールさんからご指摘をいただき、部品名など情報追加で、errata240624.jpgをアップデータとしました。
 まだ、いくつか心配点があり、デバッグ進行中です。
+
+--残問題点ーー
+OLED内の電圧ポンピング回路の過渡電流によるノイズと、Si4735のRSSIをモニターする際のi2cスイッチングノイズがあります。
+OLEDへの電流供給ルートに100Ω＋220uFのデカップリングを入れましたが、まだ万全ではないようです。i2cの方かスイッチング速度を下げる案がありますが、近々対策検討したします。
 
  nobcha  E-MAIL:”nobcha48 at gmail.com"
