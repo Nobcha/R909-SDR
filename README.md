@@ -45,6 +45,9 @@ I'm still debugging and revicing the sketch.
     You shall go down i2c speed.
     I will try those later sooner.
 
+-- Reduced noise version appended 2025.07.02 ------------
+https://github.com/Nobcha/R909-SDR/blob/main/R909-DSP3_test1.ino
+
 ![R909-DSP1_pcb](https://github.com/user-attachments/assets/a07b804d-5c57-4b06-bd32-474270569fa5)
 
 D909-DSPというのはSi4732を使った、航空無線受信とFM放送受信ができる自作ラジオです。
@@ -80,5 +83,10 @@ IF段の2SC3355部がおかしいことに気が付きました。TRのピン配
 --残問題点ーー
 OLED内の電圧ポンピング回路の過渡電流によるノイズと、Si4735のRSSIをモニターする際のi2cスイッチングノイズがあります。
 OLEDへの電流供給ルートに100Ω＋220uFのデカップリングを入れましたが、まだ万全ではないようです。i2cの方かスイッチング速度を下げる案がありますが、近々対策検討したします。
+
+--  ノイズ低減板　2025.07.02 ------------
+RSSIのモニター間隔が短すぎたようです。
+https://github.com/Nobcha/R909-SDR/blob/main/R909-DSP3_test1.ino
+
 
  nobcha  E-MAIL:”nobcha48 at gmail.com"
