@@ -1,4 +1,4 @@
-# R909-DSP
+# R909-DSP1/2
 R909-DSP is a receiver for the airband and the FM broadcasting. 
 It is configured with Si5351a, Si4732, and TA2003 mainly.
 TA2003 and Si5351a are sharing a first mixer and a local oscillator.
