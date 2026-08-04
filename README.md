@@ -19,16 +19,16 @@ The ATmega328P with the Arduino boot loader, the switches, and the display are l
 I resumed the uploaded files list in "r909-DSP_list_1.jpg" and "r909-DSP_list_1.jpg".
 
 I introduced how to operate on YOUTUBE as below:
-1602A debugging "https://www.youtube.com/watch?v=wb-YdMU-vz0"
-OLED panel "https://www.youtube.com/watch?v=UpdDh7BYJYI" "https://www.youtube.com/watch?v=UpdDh7BYJYI"
+
+OLED panel "https://www.youtube.com/watch?v=UpdDh7BYJYI" 
 
 I'm running BLOG and please visit "https://nobcha23.hatenadiary.com/"
 
 I'm much thanking Mr.Jason,9H5BM for giving me the idea of this project, PU2CLR and JF3HZB for showing me the sketch examples, Cesar Sound for introducing me the display layout example, and many people for giving me much information.
 
-     Jason kits, 9H5BM　https://www.facebook.com/profile.php?id=100012257914763
      Ricardo Lima Caratti, pu2clr　 https://github.com/pu2clr
      上保 徹志 (Tetsuji Uebo), JF3HZB　 https://tj-lab.org/2017/03/13/si5351/
+     Jason kits, 9H5BM　https://www.facebook.com/profile.php?id=100012257914763
      CesarSound https://www.hackster.io/CesarSound/10khz-to-225mhz-vfo-rf-generator-with-si5351-version-2-bfa619
 
 After then I found the cause of low sensitivity because of error pin assignment for 2SC3355 as ECB. BEC is correct so please change insertion of pins.
