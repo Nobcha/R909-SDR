@@ -20,9 +20,7 @@ I resumed the uploaded files list in "r909-DSP_list_1.jpg" and "r909-DSP_list_1.
 
 I introduced how to operate on YOUTUBE as below:
 1602A debugging "https://www.youtube.com/watch?v=wb-YdMU-vz0"
-OLED panel "https://www.youtube.com/watch?v=UpdDh7BYJYI" "https://www.youtube.com/shorts/03Hpvuk5BYI"
-
-If you use my Gerber files or information to make PCB, please resister PCBGOGO via "https://www.pcbgogo.jp/promo/nobcha23"
+OLED panel "https://www.youtube.com/watch?v=UpdDh7BYJYI" "https://www.youtube.com/watch?v=UpdDh7BYJYI"
 
 I'm running BLOG and please visit "https://nobcha23.hatenadiary.com/"
 
@@ -63,9 +61,7 @@ FM放送受信はSi4732で行います。Si4732の制御はPU2CLRのライブラ
 ＹＯＵＴＵＢＥを見ていただけるとわかりますが、動作安定で音声もクリアです。
 --感度が悪い原因は2SC3355のPCBパターン間違い（ECB)でした。正しくはBECなので、TRを反対向きにして、EとCを交差させ実装願います。
 
-
-基板はＰＣＢＧＯＧＯの協力を得ました。提供するガーバーファイルはそのためＰＣＢＧＯＧＯ向けになっています。
-次のエントリーから登録してお使いください。"https://www.pcbgogo.jp/promo/nobcha"
+基板製作はＰＣＢＧＯＧＯの協力を得ました。
 
 関連データ類をアップロードしましたが、名前と用途の説明リストも用意しました。
 R909_20240408JA.docx
